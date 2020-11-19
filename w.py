@@ -9,4 +9,4 @@ with open(os.path.join(sys.path[0], 'token.txt')) as file:
 
   row = cv.collection.add_row()
   row.win = input('Win: ')
-  row.year = datetime.now().year 
+  row.year = str(datetime.now().year)
